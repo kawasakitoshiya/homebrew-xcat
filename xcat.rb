@@ -2,10 +2,10 @@ require "formula"
 
 class Xcat < Formula
   homepage "https://github.com/kawasakitoshiya/xcat"
-  url "https://github.com/kawasakitoshiya/xcat/releases/download/0.1.0/xcat_darwin_amd64.zip"
-  sha256 "6e953025595f0606435675d4fe9cc2504a0a1d9054adb93b0f473825659dbd4f"
+  url "https://github.com/kawasakitoshiya/xcat/releases/download/0.1.1/xcat_darwin_amd64.zip"
+  sha256 "a451dcf541ca783e2b444ffeba6a7b5f5abd7863d54869ae651eae3314f4a6b3"
   head "git@github.com:kawasakitoshiya/xcat.git"
-  version "0.1.0"
+  version "0.1.1"
 
   def install
     bin.install "xcat"
